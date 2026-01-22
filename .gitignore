@@ -1,0 +1,24 @@
+# --- Python 基本過濾 ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 虛擬環境 (絕對不要上傳) ---
+venv/
+env/
+.env
+
+# --- PyInstaller 打包產生的暫存檔與結果 ---
+*.spec
+dist/
+build/
+
+# --- VS Code 設定檔 (看個人需求，通常不需上傳) ---
+.vscode/
+
+# --- 作業系統產生的垃圾檔 ---
+.DS_Store
+Thumbs.db
+
+# --- 執行檔 (因為我們要在各平台重新打包，所以不傳執行檔) ---
+*.exe
